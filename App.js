@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, ScrollView, Image, TouchableOpacity } from 'react-native';
-import { Fontisto, AntDesign,Ionicons,Octicons,EvilIcons } from '@expo/vector-icons';
+import { Ionicons,Octicons} from '@expo/vector-icons';
 
 
 export default function App() {
@@ -45,12 +45,12 @@ export default function App() {
           </View>
            <View style={styles.rec2}>
                     <Text style={styles.tittle3}>1. Faculty of Information & Communication Technology </Text>
-                    <Text style={styles.text1}>- Bachellor of Science(Hons) in Software Engineering with Multimedia</Text>
-                    <Text style={styles.text1}>- Bachellor of Science(Hons) in Information Technology</Text>
-                    <Text style={styles.text1}>- Bachellor of Science(Hons) in Business Information Technology</Text>
+                    <Text style={styles.text1}>- Bachelor of Science(Hons) in Software Engineering with Multimedia</Text>
+                    <Text style={styles.text1}>- Bachelor of Science(Hons) in Information Technology</Text>
+                    <Text style={styles.text1}>- Bachelor of Science(Hons) in Business Information Technology</Text>
            </View>
            <View style={styles.rec4}>
-                     <Text style={styles.tittle3}>1. Bachellor of Science(Hons) in Software Engineering with Multimedia</Text>
+                     <Text style={styles.tittle3}>1. Bachelor of Science(Hons) in Software Engineering with Multimedia</Text>
                      <Image
                      style={styles.image1}
                      source={require('./13-Courses-and-Resources-to-Establish-a-Career-in-Software.jpg')}/>
@@ -58,14 +58,14 @@ export default function App() {
            </View> 
            
            <View style={styles.rec3}>
-                     <Text style={styles.tittle3}>2. Bachellor of Science(Hons) in Information Technology</Text>
+                     <Text style={styles.tittle3}>2. Bachelor of Science(Hons) in Information Technology</Text>
                      <Image
                      style={styles.image1}
                      source={require('./blog-image-9.17.jpg')}/>
                      <Text style={styles.text1}>This program typically takes three to four year. This degree is primarily focused on subjects such as Software, database and networking. It aims to acguaint students with a wide range of problems that arise in computing and Information technology, together with different methods and technologies availableas solutions,</Text>
            </View>
            <View style={styles.rec4}>
-                      <Text style={styles.tittle3}>3. Bachellor of Science(Hons) in Business Information Technology</Text>
+                      <Text style={styles.tittle3}>3. Bachelor of Science(Hons) in Business Information Technology</Text>
                       <Image
                       style={styles.image1}
                       source={require('./information-technology_680.jpg')}/>
