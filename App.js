@@ -196,7 +196,7 @@ alignItems:'center',
   {
     alignItems:'center',
     width:250,
-    height:153,
+    height:140,
     marginBottom:5,
     borderRadius:5
   },
