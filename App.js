@@ -23,15 +23,16 @@ export default function App() {
            </View>
            </TouchableOpacity>
            </View>
-        <ScrollView>
+        
           <View style={styles.align}>
-                    <Text style={styles.tittle}>LIMKOKWING UNIVERSITY OF CREATIVE </Text>
-                    <Text style={styles.tittle}>TECHOLOGY</Text>
-                    <Image 
+          <Image 
                     style={styles.logo}
                     source={require('./limkoss.png')}/>
+                    <Text style={styles.tittle}>LIMKOKWING UNIVERSITY OF CREATIVE </Text>
+                    <Text style={styles.tittle}>TECHOLOGY</Text>
+                   
           </View>    
-           
+          <ScrollView>
           <View style={styles.rec1}>
                     <Text style={styles.text0}>WHAT IS LUCT? --:</Text>
                     <Text style={styles.text1}>
@@ -89,7 +90,8 @@ const styles = StyleSheet.create({
     justifyContent:'flex-start',
     borderRadius:8,
     borderStyle:'solid',
-    borderWidth:1
+    borderWidth:1,
+    marginTop:30
   },
   align:
   {
@@ -123,6 +125,7 @@ alignItems:'center',
   fontStyle: 'normal',
   marginLeft: 10,
   marginTop:8,
+  marginBottom:5
   },
   tittle2:
   {
@@ -210,7 +213,8 @@ alignItems:'center',
     backgroundColor:'black',
     borderRadius:5,
     marginTop:3,
-    justifyContent:'flex-start'
+    justifyContent:'flex-start',
+    marginLeft:4
   },
   rec11:
   {
@@ -219,6 +223,8 @@ alignItems:'center',
      backgroundColor:'black',
      marginTop:5,
      borderRadius:5,
+     marginLeft:4,
+     marginBottom:5
      
   },
    footer:
